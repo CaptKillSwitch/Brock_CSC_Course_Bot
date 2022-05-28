@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "apify": "^2.3.2",
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.10",
+    "discord-api-types": "^0.32.1",
+    "discord.js": "^13.7.0",
+    "playwright": "^1.22.0",
+    "pretty": "^2.0.0",
+    "string-progressbar": "^1.0.4",
+    "swearjar": "^0.2.0",
+    "undici": "^5.2.0"
+  },
+  "devDependencies": {
+    "bad-words-relaxed": "^1.6.5",
+    "eslint": "^8.15.0"
+  }
+}
