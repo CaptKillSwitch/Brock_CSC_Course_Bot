@@ -479,7 +479,7 @@ async function start() {
                 } else {
                   await interaction.reply({
                     content: "You are not allowed to use this command.",
-                    ephemeral: false,
+                    ephemeral: true,
                   });
                 }
                 return;
@@ -580,7 +580,7 @@ async function start() {
                 } else {
                   await interaction.reply({
                     content: "You are not allowed to use this command.",
-                    ephemeral: false,
+                    ephemeral: true,
                   });
                 }
                 return;
@@ -650,7 +650,7 @@ async function start() {
                   } else {
                     await interaction.reply({
                       content: "You are not allowed to use this command.",
-                      ephemeral: false,
+                      ephemeral: true,
                     });
                   }
                 } catch (e) {
@@ -727,7 +727,7 @@ async function start() {
                   } else {
                     await interaction.reply({
                       content: "You are not allowed to use this command.",
-                      ephemeral: false,
+                      ephemeral: true,
                     });
                   }
                 } catch (e) {
@@ -817,7 +817,7 @@ async function start() {
                   } else {
                     await interaction.reply({
                       content: "You are not allowed to use this command.",
-                      ephemeral: false,
+                      ephemeral: true,
                     });
                   }
                 } catch (e) {
