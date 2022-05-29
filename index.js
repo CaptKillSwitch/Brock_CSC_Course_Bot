@@ -930,7 +930,7 @@ async function start() {
                     .setThumbnail(emojies.random())
                     .addFields({
                       name: "Filtered message",
-                      value: filter.clean(content).replace("*", "#"),
+                      value: filter.clean(content).replaceAll("*", "#"),
                     })
                     .setTimestamp(),
                 ],
